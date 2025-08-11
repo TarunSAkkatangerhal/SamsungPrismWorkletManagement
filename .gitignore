@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+worklet.db
+
+# Environment variables (CRITICAL!)
+.env
+.env.local
+.env.production
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# FastAPI specific
+.coverage
+htmlcov/
